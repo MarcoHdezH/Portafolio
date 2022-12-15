@@ -10,102 +10,153 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="shortcut icon" href="./assets/icons/ordenador.png">
+
+    <link rel="preload" href="./css/normalize.css" as="style">
+    <link rel="stylesheet" href="./css/normalize.css">
+
+    <link rel="preload" href="./css/styles.css" as="style">
+    <link rel="stylesheet" href="./css/styles.css">
 
 </head>
 
 <body>
-    <section class="uno">
-        <h1><br>¡Hola!👋🏻 Soy Marco Antonio Hernandez</h1>
-        <p>
-            Soy un estudiante de la Benemérita Universidad Autónoma de Puebla (BUAP) y actualmente estoy estudiando la carrera de Ingeniería en Ciencias de la Computación. <br><br>
-            Quiero especializarme en el área del desarrollo web, aplicaciones moviles y animacion 3D. <br><br>Se que el camino no es facil, aun me falta mucho por aprender y mucho conocimiento por adquirir, pero estoy ansioso por recorrerlo.<br><br>
-            Soy un gran fanatico de los videojuegos, la música y el afrontar nuevos retos🔥.
 
-        </p>
-
-        <h2>Aptitudes</h2>
-            <p>
-                Estas son algunas de las tecnologías de las que tengo conocimientos.
-            </p>
-        <div class="aptitudes">
-            <div class="tech-list">
-                <img src="https://www.horuss.com.mx/wp-content/uploads/2019/04/c.png" class="tech" alt="">
-                <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" class="tech" alt="">
-                <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" class="tech" alt="Java">
-                <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" class="tech" alt="C++">
-                <img src="https://img.icons8.com/color/480/c-programming.png" class="tech" alt="C">
-            </div>
-            <div class="tech-list">
-                <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" class="tech" alt="HTML5">
-                <img src="https://cdn-icons-png.flaticon.com/512/919/919826.png" class="tech" alt="CSS3">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png" class="tech" alt="JavaScript">
-                <img src="https://cdn-icons-png.flaticon.com/512/919/919830.png" class="tech" alt="">
-                <img src="https://seeklogo.com/images/W/webpack-logo-9E66EE203A-seeklogo.com.png" class="tech" alt="">
-            </div>
-            <div class="tech-list">
-                <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" class="tech" alt="">
-                <img src="https://cdn.iconscout.com/icon/free/png-256/node-js-1174925.png" class="tech" alt="">
-                <img src="https://cdn.iconscout.com/icon/free/png-256/npm-3-1175132.png" class="tech" alt="">
-                <img src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" class="tech" alt="">
+    <header class="header sombra">
+        <div class="header__contenedor">
+            <div class="header__barra">
+                <nav class="header__navegacion">
+                    <a href="#" class="header__navegacion__enlace">Sobre Mi</a>
+                    <a href="#" class="header__navegacion__enlace">Aptitutes</a>
+                    <a href="#" class="header__navegacion__enlace">Estudios</a>
+                    <a href="#" class="header__navegacion__enlace">Proyectos</a>
+                    <a href="#" class="header__navegacion__enlace">Currículum</a>
+                    <a href="#" class="header__navegacion__enlace">Contactame</a>
+                </nav>
+                <a class="header__titulo" href="index.html">
+                    <h1>Hola, Soy Marco Antonio Hernandez</h1>
+                </a>
             </div>
         </div>
-        <h2>Educación</h2>
-        <ul>
-            <li>Ingeniería en Ciencias de la Computación | 2018-Actualidad | Benemérita Univerdidad Autónoma de Puebla</li>
-        </ul>
-    </section>
 
-    <section class="dos">
-        <h2>Mis Proyectos</h2>
-        <div class="proyectos">
-            <div class="card">
-                <h3>Aplicación de Tienda de Insectos</h3>
-                <img src="images/App.jpeg" alt="">
-                <p>
-                    Proyecto final de la materia de Desarrollo de Aplicaciones Moviles. Es una tienda donde se puede adquirir un insecto mascota, asi como algunos accesorios para la misma.
-                </p>
-                <a href="https://github.com/MarcoHdezH/Tienda_Insectos.git" target="_blank">Ver</a>
+        <div class="header__texto">
+            <h2>Full Stack Developer in Progress...</h2>
+        </div>
+    </header>
+
+    <section class="sobreMi">
+        <div>
+            <div class="Fotografia">
+
             </div>
-            <div class="card">
-                <h3>Página web de Peliculas</h3>
-                <img src="images/Web.png" alt="Maxi Programa en YouTube">
-                <p>
-                    Una pequeña página web para comprar Peliculas.
-                </p>
-                <a href="https://github.com/MarcoHdezH/Pagina_Web.git" target="_blank">Ver</a>
-            </div>
-            <div class="card">
-                <h3>Reconocimiento de número escritros a mano</h3>
-                <img src="images/IA.jpg" alt="Campus Virtual Maxi Programa">
-                <p>
-                    Proyecto final de la materia de Técnicas de Inteligencia Artifical el cual reconoce numeros escritos a mano y con una red neuronal identifica dicho número.
-                </p>
-                <a href="https://github.com/MarcoHdezH/Reconocimiento_Numeros.git" target="_blank">Ver</a>
-            </div>
-            <div class="card">
-                <h3>Página que permite múltiples acciones en una base de datos</h3>
-                <img src="images/Pagina.png" alt="Campus Virtual Maxi Programa">
-                <p>
-                    Esta página permite mostrar, dar de alta, modificar y eliminar usuarios con una base de datos alojada en Xampp. Perteneciente a la materia de Web-Semántica.
-                </p>
-                <a href="" target="_blank">Ver</a>
+
+            <div class="Presentacion">
+                <h2>Acerca de Mi</h2>
+                <p>Soy un estudiante de la Benemérita Universidad Autónoma de Puebla (BUAP) y actualmente estoy estudiando la carrera de Ingeniería en Ciencias de la Computación. <br><br>
+                    Quiero especializarme en el área del desarrollo web, aplicaciones moviles y animacion 3D.<br><br>Se que el camino no es facil, aun me falta mucho por aprender y mucho conocimiento por adquirir, pero estoy ansioso por recorrerlo.<br><br>
+                    Soy un gran fanatico de los videojuegos, la música y el afrontar nuevos retos🔥.</p>
             </div>
         </div>
     </section>
-
-    <footer>
-        <h2>¿Comó contactar conmigo?</h2>
-            <div class="contacto">
-                <a href="https://www.linkedin.com/in/marco-antonio-hernandez-hernandez-516626253/" target="_blank">
-                    <img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" class="red-social" alt="">
-                </a>
-                <hr>
-                <a href="https://github.com/MarcoHdezH" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" class="red-social" alt="">
-                </a>
-            </div>
-            <p style="padding-top: 30px;">Correo Electrónico: marco7245@hotmail.com</p>
-    </footer>
+ 
 </body>
 </html>
+
+<!-- Version Vieja-->
+
+<!--
+
+<section class="uno">
+    <h1><br>¡Hola!👋🏻 Soy Marco Antonio Hernandez</h1>
+    <p>
+        Soy un estudiante de la Benemérita Universidad Autónoma de Puebla (BUAP) y actualmente estoy estudiando la carrera de Ingeniería en Ciencias de la Computación. <br><br>
+        Quiero especializarme en el área del desarrollo web, aplicaciones moviles y animacion 3D. <br><br>Se que el camino no es facil, aun me falta mucho por aprender y mucho conocimiento por adquirir, pero estoy ansioso por recorrerlo.<br><br>
+        Soy un gran fanatico de los videojuegos, la música y el afrontar nuevos retos🔥.
+
+    </p>
+
+    <h2>Aptitudes</h2>
+        <p>
+            Estas son algunas de las tecnologías de las que tengo conocimientos.
+        </p>
+    <div class="aptitudes">
+        <div class="tech-list">
+            <img src="https://www.horuss.com.mx/wp-content/uploads/2019/04/c.png" class="tech" alt="">
+            <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" class="tech" alt="">
+            <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" class="tech" alt="Java">
+            <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" class="tech" alt="C++">
+            <img src="https://img.icons8.com/color/480/c-programming.png" class="tech" alt="C">
+        </div>
+        <div class="tech-list">
+            <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" class="tech" alt="HTML5">
+            <img src="https://cdn-icons-png.flaticon.com/512/919/919826.png" class="tech" alt="CSS3">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png" class="tech" alt="JavaScript">
+            <img src="https://cdn-icons-png.flaticon.com/512/919/919830.png" class="tech" alt="">
+            <img src="https://seeklogo.com/images/W/webpack-logo-9E66EE203A-seeklogo.com.png" class="tech" alt="">
+        </div>
+        <div class="tech-list">
+            <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" class="tech" alt="">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/node-js-1174925.png" class="tech" alt="">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/npm-3-1175132.png" class="tech" alt="">
+            <img src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" class="tech" alt="">
+        </div>
+    </div>
+    <h2>Educación</h2>
+    <ul>
+        <li>Ingeniería en Ciencias de la Computación | 2018-Actualidad | Benemérita Univerdidad Autónoma de Puebla</li>
+    </ul>
+</section>
+
+<section class="dos">
+    <h2>Mis Proyectos</h2>
+    <div class="proyectos">
+        <div class="card">
+            <h3>Aplicación de Tienda de Insectos</h3>
+            <img src="images/App.jpeg" alt="">
+            <p>
+                Proyecto final de la materia de Desarrollo de Aplicaciones Moviles. Es una tienda donde se puede adquirir un insecto mascota, asi como algunos accesorios para la misma.
+            </p>
+            <a href="https://github.com/MarcoHdezH/Tienda_Insectos.git" target="_blank">Ver</a>
+        </div>
+        <div class="card">
+            <h3>Página web de Peliculas</h3>
+            <img src="images/Web.png" alt="Maxi Programa en YouTube">
+            <p>
+                Una pequeña página web para comprar Peliculas.
+            </p>
+            <a href="https://github.com/MarcoHdezH/Pagina_Web.git" target="_blank">Ver</a>
+        </div>
+        <div class="card">
+            <h3>Reconocimiento de número escritros a mano</h3>
+            <img src="images/IA.jpg" alt="Campus Virtual Maxi Programa">
+            <p>
+                Proyecto final de la materia de Técnicas de Inteligencia Artifical el cual reconoce numeros escritos a mano y con una red neuronal identifica dicho número.
+            </p>
+            <a href="https://github.com/MarcoHdezH/Reconocimiento_Numeros.git" target="_blank">Ver</a>
+        </div>
+        <div class="card">
+            <h3>Página que permite múltiples acciones en una base de datos</h3>
+            <img src="images/Pagina.png" alt="Campus Virtual Maxi Programa">
+            <p>
+                Esta página permite mostrar, dar de alta, modificar y eliminar usuarios con una base de datos alojada en Xampp. Perteneciente a la materia de Web-Semántica.
+            </p>
+            <a href="" target="_blank">Ver</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <h2>¿Comó contactar conmigo?</h2>
+        <div class="contacto">
+            <a href="https://www.linkedin.com/in/marco-antonio-hernandez-hernandez-516626253/" target="_blank">
+                <img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" class="red-social" alt="">
+            </a>
+            <hr>
+            <a href="https://github.com/MarcoHdezH" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" class="red-social" alt="">
+            </a>
+        </div>
+        <p style="padding-top: 30px;">Correo Electrónico: marco7245@hotmail.com</p>
+</footer>
+-->
