@@ -162,14 +162,26 @@ img{
 /* ////////////////////////////////////////////// */
 
 .sobreMi{
-    height: 75rem;
+    height: 90rem;
     background-color: var(--Blanco);
     color: var(--Negro);
     margin: 4rem;
     text-align: center;
 }
 
+.Spotify{
+    width: 100%;
+    height: 10rem;
+
+}
+
 @media (min-width: 768px) {
+    .sobreMi{
+        height: 50rem;
+    }
+}
+
+@media (min-width: 1024px) {
     .sobreMi{
         height: 40rem;
     }
@@ -321,4 +333,93 @@ img{
     .tech{
         height: 10rem;
     }
+}
+
+/* ////////////////////////////////////////////// */
+
+.Educacion{
+    height: 75rem;
+    background-color: var(--Blanco);
+    color: var(--Negro);
+    margin: 4rem;
+    text-align: center;
+}
+
+.Cursos{
+    display: grid;
+    grid-template-areas: "Buap Udemy Cisco EmTech UCamp";
+    grid-template-areas: "Buap"
+                         "Udemy"
+                         "Cisco"
+                         "EmTech"
+                         "UCamp";
+    gap: 3rem;
+}
+
+.logotipo{
+    width: 20rem;
+    height: 15rem;
+}
+
+.Buap{
+    grid-area: Buap;
+}
+
+.Udemy{
+    grid-area: Udemy;
+}
+
+.Cisco{
+    grid-area: Cisco;
+}
+
+.EmTech{
+    grid-area: EmTech;
+}
+
+.UCamp{
+    grid-area: UCamp;
+}
+
+@media (min-width: 768px) {
+    .Cursos{
+        display: grid;
+        grid-template-areas: "Buap Udemy Cisco EmTech UCamp";
+        grid-template-areas: "Buap Buap Udemy Udemy"
+                             "Cisco Cisco EmTech EmTech"
+                             "UCamp UCamp UCamp UCamp";
+    }
+
+    .logotipo{
+        width: 20rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .Cursos{
+        display: grid;
+        grid-template-areas: "Buap Udemy Cisco EmTech UCamp";
+        grid-template-areas: "Buap Buap Udemy Udemy Cisco Cisco"
+                             "EmTech EmTech EmTech UCamp UCamp UCamp";
+    }
+    .logotipo{
+        width: 22rem;
+    }
+
+}
+
+.Buap,
+.Udemy,
+.Cisco,
+.EmTech,
+.UCamp ,p,h5{
+    text-align: center;
+}
+
+.Buap,
+.Udemy,
+.Cisco,
+.EmTech,
+.UCamp ,p{
+    font-size: 1.5rem;
 }
