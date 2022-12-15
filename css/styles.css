@@ -170,7 +170,6 @@ img{
     }
 }
 
-
 .iconos{
     height: auto;
     width: 32rem;
@@ -246,4 +245,17 @@ img{
         display: grid;
         grid-template-columns: 40% 60%;
     }
+}
+
+/* ////////////////////////////////////////////// */
+
+.Aptitudes{
+    height: 75rem;
+    background-color: var(--Negro);
+    color: var(--Blanco);
+    text-align: center;
+}
+
+.Apt_Contenedor{
+    padding: 3rem;
 }
