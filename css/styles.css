@@ -157,15 +157,93 @@ img{
 /* ////////////////////////////////////////////// */
 
 .sobreMi{
-    height: 75.7rem;
+    height: 75rem;
     background-color: var(--Blanco);
     color: var(--Negro);
+    margin: 4rem;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .sobreMi{
+        height: 40rem;
+    }
+}
+
+
+.iconos{
+    height: auto;
+    width: 32rem;
+    background-color: var(--Negro);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 .Fotografia{
-    
+    width: 70%;
+    border-radius: 50%;
+}
+
+.Seccion_sobreMi{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
 }
 
 .Presentacion{
-    margin: 3rem;
+    margin: 0 2rem 0 0;
+}
+
+@media (min-width: 768px) {
+    .Seccion_sobreMi{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        column-gap: 3rem;
+    }
+
+    .iconos{
+        height: 27rem;
+        width: 27rem;
+        background-color: var(--Negro);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .Fotografia{
+        width: 60%;
+        border-radius: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .Seccion_sobreMi{
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+
+    .iconos{
+        height: 40rem;
+        width: 40rem;
+        background-color: var(--Negro);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .Fotografia{
+        width: 70%;
+        border-radius: 50%;
+    }
+    
+    .Seccion_sobreMi{
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
 }
