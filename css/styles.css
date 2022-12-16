@@ -338,7 +338,7 @@ img{
 /* ////////////////////////////////////////////// */
 
 .Educacion{
-    height: 75rem;
+    height: 210rem;
     background-color: var(--Blanco);
     color: var(--Negro);
     margin: 4rem;
@@ -382,6 +382,9 @@ img{
 }
 
 @media (min-width: 768px) {
+    .Educacion{
+        height: 140rem;
+    }
     .Cursos{
         display: grid;
         grid-template-areas: "Buap Udemy Cisco EmTech UCamp";
@@ -396,6 +399,9 @@ img{
 }
 
 @media (min-width: 1024px) {
+    .Educacion{
+        height: 100rem;
+    }
     .Cursos{
         display: grid;
         grid-template-areas: "Buap Udemy Cisco EmTech UCamp";
@@ -407,7 +413,6 @@ img{
     }
 
 }
-
 .Buap,
 .Udemy,
 .Cisco,
@@ -422,4 +427,49 @@ img{
 .EmTech,
 .UCamp ,p{
     font-size: 1.5rem;
+}
+
+/* ////////////////////////////////////////////// */
+
+.Portafolio{
+    height: 330rem;
+    background-color: var(--Negro);
+    color: var(--Blanco);
+    text-align: center;
+    padding: 2rem;
+}
+
+.Repositorios{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 3rem;
+}
+
+.Repos{
+    background-color: var(--Blanco);
+    color: var(--Negro);
+    border-style: double;
+    border-radius: 5rem;
+    padding: 1rem;
+}
+.Repos a{
+    font-size: 1.7rem;
+}
+
+@media (min-width: 768px) {
+    .Portafolio{
+        height: 180rem;
+    }
+    .Repositorios{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .Portafolio{
+        height: 150rem;
+    }
+    .Repositorios{
+        grid-template-columns: repeat(3,1fr);
+    }
 }
