@@ -473,3 +473,38 @@ img{
         grid-template-columns: repeat(3,1fr);
     }
 }
+
+/* ////////////////////////////////////////////// */
+
+.CV{
+    height: 20rem;
+    background-color: var(--Blanco);
+    color: var(--Negro);
+    text-align: center;
+    padding: 2rem;
+}
+
+/* ////////////////////////////////////////////// */
+
+.Contacto{
+    height: 40rem;
+    background-color: var(--Blanco);
+    color: var(--Negro);
+    text-align: center;
+    padding: 2rem;
+}
+
+.Contacto p{
+    font-size: 2rem;
+}
+
+.contactar{
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.contactar a{
+    text-align: center;
+}
